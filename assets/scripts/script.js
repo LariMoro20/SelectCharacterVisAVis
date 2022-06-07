@@ -1,10 +1,10 @@
 let characters_list = [
-    { id: 1, name: 'Saray', image: './assets/img/1.png', selected: false },
-    { id: 2, name: 'Zulema', image: './assets/img/2.png', selected: false },
-    { id: 3, name: 'Cachinhos', image: './assets/img/3.png', selected: false },
-    { id: 4, name: 'Macarena', image: './assets/img/4.png', selected: false },
-    { id: 5, name: 'Tereza', image: './assets/img/5.png', selected: false },
-    { id: 6, name: 'Anabel', image: './assets/img/6.png', selected: false },
+    { id: 1, name: 'Saray', image: './assets/img/characters/1.png', selected: false },
+    { id: 2, name: 'Zulema', image: './assets/img/characters/2.png', selected: false },
+    { id: 3, name: 'Cachinhos', image: './assets/img/characters/3.png', selected: false },
+    { id: 4, name: 'Macarena', image: './assets/img/characters/4.png', selected: false },
+    { id: 5, name: 'Tereza', image: './assets/img/characters/5.png', selected: false },
+    { id: 6, name: 'Anabel', image: './assets/img/characters/6.png', selected: false },
 ]
 
 //Pega todos os elementos de personagens
@@ -23,7 +23,7 @@ characters_html.forEach((character) => {
 
         //Carrega imagem do personagem selecionado
         const character_img = document.getElementById('character-1-img');
-        character_img.src = `./assets/img/${selected_character}.png`
+        character_img.src = `./assets/img/characters/${selected_character}.png`
 
         //Carrega nome do personagem selecionado
         const character_name = document.getElementById('character-1-name');
