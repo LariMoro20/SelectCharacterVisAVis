@@ -1,10 +1,21 @@
+.main-content {
+    background-image: url('../img/back-vis.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #433D36;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 header {
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 header .logo {
@@ -37,12 +48,6 @@ header .titulo {
     background-position: top;
     background-color: #d4a52b;
     border: 2px solid;
-}
-
-.main-content {
-    background-image: url('../img/back-vis.jpg');
-    background-blend-mode: multiply;
-    background-color: #433D36;
 }
 
 .character-selected {
