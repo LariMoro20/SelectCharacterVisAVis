@@ -1,10 +1,12 @@
 # Select Character Vis A Vis
 
-Aplicação lista alguns personagens da serie Vis a Vis e permite ao usuario escolher o seu. Feita puramente em HTML, CSS e JavaScript. 
-
+Aplicação lista alguns personagens da serie Vis a Vis e permite ao usuario escolher o seu. Feita puramente em HTML, CSS e JavaScript.
 Para visualizar a aplicação: https://visavis-players-larisantos.vercel.app/
 
+![imagem](https://github.com/LariMoro20/SelectCharacterVisAVis/blob/main/screenshot.png)
+
 ## Tecnologias 🚀
+
 <div style="display:flex">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -25,6 +27,5 @@ Para visualizar a aplicação: https://visavis-players-larisantos.vercel.app/
  index.html
 
 ```
-
 
 Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
