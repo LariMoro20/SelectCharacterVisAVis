@@ -34,6 +34,15 @@ header .titulo {
     -webkit-text-stoke: 2px var(--color-primary);
 }
 
+.social__items i {
+    font-size: 33px;
+    color: white;
+}
+
+.social__items a, .social__items a:hover {
+    text-decoration: none;
+}
+
 .characters__selection-select {
     display: flex;
     justify-content: center;
