@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
 .main-content {
     background-image: url("../img/back-vis.jpg");
     background-size: cover;
@@ -82,7 +97,7 @@ header .title {
 }
 
 .characters__selection-selected img {
-    height: 300px;
+    height: 250px;
 }
 
 .character:hover {
