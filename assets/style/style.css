@@ -39,6 +39,23 @@ header .titulo {
     color: white;
 }
 
+.show__player-title {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.choice-player {
+    background-color: white;
+    color: black;
+}
+
+.button-selected {
+    background-color: var(--color-primary);
+    color: white;
+
+}
+
 .social__items a, .social__items a:hover {
     text-decoration: none;
 }
