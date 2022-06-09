@@ -24,7 +24,7 @@ header {
 header .logo {
     height: auto;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 header .titulo {
@@ -71,7 +71,7 @@ header .titulo {
 }
 
 .character {
-    height: 100px;
+    height: 90px;
     background-size: cover;
     background-position: top;
     background-color: #d4a52b;
