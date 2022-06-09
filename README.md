@@ -4,7 +4,7 @@ Aplicação simula a interface de um jogo de luta com alguns personagens da seri
 
 Para visualizar a aplicação: https://visavis-players-larisantos.vercel.app/
 
-![imagem](https://github.com/LariMoro20/SelectCharacterVisAVis/blob/main/screenshot2.png)
+![imagem](https://github.com/LariMoro20/SelectCharacterVisAVis/blob/main/screenshot3.png)
 
 ## Tecnologias 🚀
 
