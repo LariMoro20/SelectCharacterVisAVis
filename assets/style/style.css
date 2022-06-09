@@ -1,10 +1,9 @@
 .main-content {
-    background-image: url('../img/back-vis.jpg');
+    background-image: url("../img/back-vis.jpg");
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: #433D36;
+    background-color: #433d36;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -27,7 +26,7 @@ header .logo {
     margin-top: 5px;
 }
 
-header .titulo {
+header .title {
     color: var(--color-primary);
     text-transform: uppercase;
     font-size: 25px;
@@ -53,10 +52,10 @@ header .titulo {
 .button-selected {
     background-color: var(--color-primary);
     color: white;
-
 }
 
-.social__items a, .social__items a:hover {
+.social__items a,
+.social__items a:hover {
     text-decoration: none;
 }
 
@@ -100,15 +99,15 @@ header .titulo {
     top: 5px;
     left: 5px;
     color: var(--color-secondary);
-    transition: opacity .3 ease-in-out;
-    animation: text-glowing-blue .3s ease-in-out infinite;
+    transition: opacity 0.3 ease-in-out;
+    animation: text-glowing-blue 0.3s ease-in-out infinite;
     animation-direction: alternate;
     font-size: 10px;
 }
 
 .character-selected .tag {
     display: block;
-    animation: text-glowing-blue .3s ease-in-out infinite;
+    animation: text-glowing-blue 0.3s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -118,11 +117,11 @@ footer {
     background-color: var(--color-primary);
 }
 
-footer a, footer a:hover {
+footer a,
+footer a:hover {
     text-decoration: none;
     color: black;
 }
-
 
 :root {
     --color-primary: #d4a52b;
